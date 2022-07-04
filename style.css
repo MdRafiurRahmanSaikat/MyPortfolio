@@ -3,7 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
-.web {
+.titlecolor {
   color: orange;
 }
 H1 {
@@ -17,16 +17,12 @@ p {
   font-size: 20px;
   text-align: justify;
 }
-section {
-  display: flex;
-  margin-bottom: 80 px;
-}
 .TextPart {
   padding: 5%;
   width: 50%;
 }
 .TextPart img {
-  width: 110%;
+  width: 100%;
 }
 .Button {
   border: solid rgb(7, 232, 45);
@@ -45,4 +41,42 @@ section {
   background-image: url(./images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.Experience {
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  text-align: justify;
+}
+.shadow {
+  text-align: justify;
+  width: 40%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  box-shadow: 10px 10px 50px gray;
+  border-radius: 30px;
+}
+#lftbordercolor {
+  border-left: tomato;
+}
+#rhgtbordercolor {
+  border-left: blue;
+}
+
+.SectionFormat {
+  display: flex;
+  margin-bottom: 80 px;
+  border-left: 7px red;
+}
+#lftbordercolor {
+  border-left: 10px solid tomato;
+}
+#rghtbordercolor {
+  border-left: 10px solid blue;
+}
+footer {
+  text-align: center;
+
+  font-weight: bolder;
 }
