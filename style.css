@@ -1,0 +1,48 @@
+body {
+  font-family: "Finlandica", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.web {
+  color: orange;
+}
+H1 {
+  font-size: 50px;
+}
+.PTitle {
+  font-size: 25px;
+  font-weight: 700;
+}
+p {
+  font-size: 20px;
+  text-align: justify;
+}
+section {
+  display: flex;
+  margin-bottom: 80 px;
+}
+.TextPart {
+  padding: 5%;
+  width: 50%;
+}
+.TextPart img {
+  width: 110%;
+}
+.Button {
+  border: solid rgb(7, 232, 45);
+  border-radius: 10px;
+  padding: 10px 40px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  background-image: radial-gradient(red, blue);
+  text-decoration: none;
+}
+.TopBanner {
+  background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.MidBanner {
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
